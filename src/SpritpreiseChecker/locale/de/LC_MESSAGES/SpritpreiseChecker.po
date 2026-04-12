@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpritpreiseChecker 1.0.0\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "API key"
+msgstr "API-Schlüssel"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Data source"
+msgstr "Datenquelle"
+
+msgid "Distance"
+msgstr "Entfernung"
+
+msgid "Distance (ascending)"
+msgstr "Entfernung (aufsteigend)"
+
+msgid "Enter search radius in km (1-25)"
+msgstr "Suchradius in km eingeben (1-25)"
+
+msgid "Enter your 5-digit ZIP code"
+msgstr "5-stellige Postleitzahl eingeben"
+
+msgid "Enter your Tankerkoenig API key here"
+msgstr "Tankerkönig API-Schlüssel hier eingeben"
+
+msgid "Fuel type"
+msgstr "Kraftstoffart"
+
+msgid "House number"
+msgstr "Hausnummer"
+
+msgid "Information"
+msgstr "Informationen"
+
+msgid "Loading map tiles..."
+msgstr "Lade Karten-Kacheln..."
+
+msgid "Main menu"
+msgstr "Hauptmenü"
+
+msgid "Map could not be loaded"
+msgstr "Karte konnte nicht geladen werden"
+
+msgid "Map zoom"
+msgstr "Karten-Zoom"
+
+msgid "No coordinates available for this station"
+msgstr "Keine Koordinaten für diese Tankstelle vorhanden"
+
+msgid "No entries available"
+msgstr "Keine Einträge vorhanden"
+
+msgid "OK/Exit closes this map"
+msgstr "OK/Exit schließt diese Karte"
+
+msgid "Optional: house number for more precise distance"
+msgstr "Optional: Hausnummer für genauere Entfernung"
+
+msgid "Optional: street for more precise distance"
+msgstr "Optional: Straße für genauere Entfernung"
+
+msgid "Please fill all settings"
+msgstr "Bitte alle Einstellungen ausfüllen"
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Price per liter (ascending)"
+msgstr "Literpreis (aufsteigend)"
+
+msgid "Radius (km)"
+msgstr "Radius (km)"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Select the fuel type to display in the list"
+msgstr "Kraftstoffart für die Liste auswählen"
+
+msgid "Set map zoom level (12-19), higher means closer"
+msgstr "Karten-Zoomstufe (12-19), höher bedeutet näher"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert"
+
+msgid "Sort"
+msgstr "Sortieren"
+
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+msgid "Sort by distance (ascending)"
+msgstr "Nach Entfernung sortieren (aufsteigend)"
+
+msgid "Sort by price per liter (ascending)"
+msgstr "Nach Literpreis sortieren (aufsteigend)"
+
+msgid "Spritpreise-Checker"
+msgstr "Spritpreise-Checker"
+
+msgid "Station"
+msgstr "Tankstelle"
+
+msgid "Station map"
+msgstr "Tankstellen-Karte"
+
+msgid "Street"
+msgstr "Straße"
+
+msgid "Updated"
+msgstr "Aktualisiert"
+
+msgid "Using cached data"
+msgstr "Verwende zwischengespeicherte Daten"
+
+msgid "ZIP code"
+msgstr "Postleitzahl"

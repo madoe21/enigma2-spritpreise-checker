@@ -1,0 +1,52 @@
+@geocodeBaseUrl = https://nominatim.openstreetmap.org
+@apiBaseUrl = https://creativecommons.tankerkoenig.de/json
+@postalCode = {{$dotenv PLZ}}
+@country = de
+@radius = {{$dotenv RADIUS}}
+@fuelType = {{$dotenv FUEL_TYPE}}
+@apiKey = {{$dotenv TANKERKOENIG_API_KEY}}
+
+### 1) Geocode by PLZ
+# @name geocodeByPlz
+GET {{geocodeBaseUrl}}/search?country={{country}}&postalcode={{postalCode}}&format=json&limit=1
+User-Agent: enigma2-spritpreise-checker-plugin-test/1.0
+Accept: application/json
+
+{{
+  exports.geoLat = response.parsedBody[0].lat;
+  exports.geoLon = response.parsedBody[0].lon;
+}}
+
+### 2) Station list around lat/lng
+# @ref geocodeByPlz
+# @name stationList
+GET {{apiBaseUrl}}/list.php?lat={{geoLat}}&lng={{geoLon}}&rad={{radius}}&sort=dist&type=all&apikey={{apiKey}}
+Accept: application/json
+
+{{
+  const stations = Array.isArray(response.parsedBody?.stations) ? response.parsedBody.stations : [];
+  const first = stations.length > 0 ? stations[0] : null;
+  const key = String(variables.fuelType || '').toLowerCase();
+
+  exports.stationCount = stations.length;
+  exports.firstStationName = first?.name || null;
+  exports.firstStationPlace = first?.place || null;
+  exports.firstStationDistance = first?.dist || null;
+  exports.selectedFuelType = key;
+  exports.selectedFuelPrice = first && key ? first[key] : null;
+}}
+
+### 2b) Selected fuel type price from nearest station
+### Run after request #2 and check exported values in response/variables:
+### - selectedFuelType
+### - selectedFuelPrice
+### - firstStationName / firstStationPlace / firstStationDistance
+
+### 3) Single station prices by id
+@stationId = REPLACE_WITH_STATION_ID
+GET {{apiBaseUrl}}/prices.php?ids={{stationId}}&apikey={{apiKey}}
+Accept: application/json
+
+### 4) Validate API key (Berlin sample)
+GET {{apiBaseUrl}}/list.php?lat=52.520008&lng=13.404954&rad=3&sort=dist&type=all&apikey={{apiKey}}
+Accept: application/json

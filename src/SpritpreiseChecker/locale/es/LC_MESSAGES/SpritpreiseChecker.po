@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpritpreiseChecker 1.0.0\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "API key"
+msgstr "Clave API"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Data source"
+msgstr "Fuente de datos"
+
+msgid "Distance"
+msgstr "Distancia"
+
+msgid "Distance (ascending)"
+msgstr "Distancia (ascendente)"
+
+msgid "Enter search radius in km (1-25)"
+msgstr "Radio de búsqueda en km (1-25)"
+
+msgid "Enter your 5-digit ZIP code"
+msgstr "Introduzca su código postal de 5 dígitos"
+
+msgid "Enter your Tankerkoenig API key here"
+msgstr "Introduzca su clave API de Tankerkoenig"
+
+msgid "Fuel type"
+msgstr "Tipo de combustible"
+
+msgid "House number"
+msgstr "Número"
+
+msgid "Information"
+msgstr "Información"
+
+msgid "Loading map tiles..."
+msgstr "Cargando mosaicos del mapa..."
+
+msgid "Main menu"
+msgstr "Menú principal"
+
+msgid "Map could not be loaded"
+msgstr "No se pudo cargar el mapa"
+
+msgid "Map zoom"
+msgstr "Zoom del mapa"
+
+msgid "No coordinates available for this station"
+msgstr "No hay coordenadas para esta estación"
+
+msgid "No entries available"
+msgstr "No hay entradas disponibles"
+
+msgid "OK/Exit closes this map"
+msgstr "OK/Salir cierra este mapa"
+
+msgid "Optional: house number for more precise distance"
+msgstr "Opcional: número para distancia más precisa"
+
+msgid "Optional: street for more precise distance"
+msgstr "Opcional: calle para distancia más precisa"
+
+msgid "Please fill all settings"
+msgstr "Rellene todos los ajustes"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Price per liter (ascending)"
+msgstr "Precio por litro (ascendente)"
+
+msgid "Radius (km)"
+msgstr "Radio (km)"
+
+msgid "Refresh"
+msgstr "Actualizar"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Select the fuel type to display in the list"
+msgstr "Seleccione el tipo de combustible a mostrar"
+
+msgid "Set map zoom level (12-19), higher means closer"
+msgstr "Zoom del mapa (12-19), mayor = más cerca"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Settings saved"
+msgstr "Ajustes guardados"
+
+msgid "Sort"
+msgstr "Ordenar"
+
+msgid "Sort by"
+msgstr "Ordenar por"
+
+msgid "Sort by distance (ascending)"
+msgstr "Ordenar por distancia (ascendente)"
+
+msgid "Sort by price per liter (ascending)"
+msgstr "Ordenar por precio por litro (ascendente)"
+
+msgid "Spritpreise-Checker"
+msgstr "Verificador de precios de combustible"
+
+msgid "Station"
+msgstr "Estación"
+
+msgid "Station map"
+msgstr "Mapa de estaciones"
+
+msgid "Street"
+msgstr "Calle"
+
+msgid "Updated"
+msgstr "Actualizado"
+
+msgid "Using cached data"
+msgstr "Usando datos en caché"
+
+msgid "ZIP code"
+msgstr "Código postal"

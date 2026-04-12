@@ -1,0 +1,8 @@
+Package: enigma2-plugin-extensions-spritpreise-checker
+Version: 1.0.0
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: madoe21 <https://github.com/madoe21>
+Description: SpritpreiseChecker plugin for Enigma2 (uses Tankerkoenig API)
+Depends: enigma2
