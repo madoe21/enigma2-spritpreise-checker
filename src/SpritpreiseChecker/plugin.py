@@ -14,9 +14,9 @@ from Plugins.Plugin import PluginDescriptor
 from Tools.Directories import SCOPE_PLUGINS, resolveFilename
 
 from . import _
-from .api import SpritpreiseCheckerApiClient
+from .core.api import SpritpreiseCheckerApiClient
 from .screens import SpritpreiseCheckerMainScreen, SpritpreiseCheckerSettingsScreen
-from .store import SpritpreiseCheckerStore
+from .core.store import SpritpreiseCheckerStore
 
 SETTINGS_FILE = "/etc/enigma2/settings"
 
